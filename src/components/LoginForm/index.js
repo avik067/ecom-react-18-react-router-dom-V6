@@ -113,7 +113,12 @@ const  LoginForm = () => {
           </button>
           {credential.showSubmitError && <p className="error-message">*{credential.errorMsg}</p>}
         </form>
+        <div className="login-info">
+              Prime user : Username: rahul , password: rahul@2021 <br /> <br />{' '}
+              Non-Prime user : Username: raja ,password: raja@2021
+        </div>
       </div>
+      
       </>
     ) 
 }

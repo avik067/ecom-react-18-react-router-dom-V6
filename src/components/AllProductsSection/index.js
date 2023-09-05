@@ -255,8 +255,7 @@ class AllProductsSection extends Component {
           searchInput={searchInput}
           categoryOptions={categoryOptions}
           ratingsList={ratingsList}
-          changeSearchInput={this.changeSearchInput}
-        //   enterSearchInput={this.enterSearchInput}
+          changeSearchInput={this.changeSearchInput}      
           activeCategoryId={activeCategoryId}
           activeRatingId={activeRatingId}
           changeCategory={this.changeCategory}
