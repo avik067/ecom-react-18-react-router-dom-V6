@@ -155,9 +155,7 @@ class AllProductsSection extends Component {
     this.setState({activeCategoryId}, this.getProducts)
   }
 
-//   enterSearchInput = () => {
-//     this.getProducts()
-//   }
+
 
   changeSearchInput = searchInput => {
     this.setState({searchInput},()=> this.nameChange())
